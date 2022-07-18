@@ -1,0 +1,257 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+    
+}
+.logo{
+    width: 90px;
+}
+.hero{
+    height:100vh;
+    width:100%;
+   font-family:'Josefin Sans', sans-serif;
+   background-image: url(../logo/3.jpg);
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top:20px;
+    padding-left:8%;
+    padding-right:8%;
+   
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px 25px;
+    
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: larger;
+    border: 2px solid transparent;
+   
+}
+nav ul li a:hover{
+    color:#8ad9db;
+    transition: .4s;
+    
+}
+.btn{
+    background-color:#8ad9db ;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:10px 25px;
+    border-radius: 30px;
+    transition: transfrom .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position:absolute;
+    top:50%;
+    left: 8%;
+    transform:translateY(-50%);
+}
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    font-size:75px;
+}
+h3{
+    color:#5fb5b8;
+    font-size:25px;
+    margin-bottom: 50px;
+}
+h4{
+    color:#bee7e8;
+    letter-spacing:2px;
+    font-size:20px;
+}
+h2{
+    color:white;
+    font-size: 25px;
+    margin:20px 0px 20px;
+}
+span{
+    color: #a7f0f3;
+}
+.about{
+    margin-top: 2px;
+    width:100%;
+    padding:100px 0px;
+    background-color: white;
+}
+.about img{
+    height:auto;
+    width:430px;
+}
+.about-text{
+    width:550px;
+}
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:black;
+    letter-spacing: 2px;
+    font-size:30px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:black;
+    letter-spacing:1px;
+    line-height: 30px;
+    font-size: 22px;
+    margin-bottom:45px ;
+}
+.about-text a{
+    background-color:#8ad9db;
+     color:black;
+     text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: bold;
+     padding:13px 30px;
+     border-radius: 30px;
+     transition: .4s;
+}
+.about-text a:hover{
+    background-color: transparent;
+    border: 2px solid black;
+}
+.top{
+    margin-top: 80px;
+    margin-left:-38px;
+}
+.course{ 
+
+  width:100%;
+  padding:100px 0px;
+
+}
+.title h2{
+color:black;
+font-size:75px;
+width:1130px;
+margin:30px auto; 
+text-align:center
+
+}
+.box{
+      
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:400px;
+}
+.card{
+    height:365px;
+    width:335px;
+ 
+    background: rgb(234, 223, 223);
+    padding:100px 20px;
+    border-radius:20px;
+    margin:15px;
+    position:relative;
+    overflow:hidden;
+    text-align: center;
+}
+.h2{
+    font-size:23px;
+    margin-bottom:30px;
+}
+footer{
+    position:relative;
+    width:100%;
+    height:250px;
+   
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.social{
+    display:flex;
+
+}
+.social a{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background: rgb(172, 213, 237);
+    border-radius: 50%;
+    margin:22px 10px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position:absolute;
+    bottom:35px;
+    font-size: 14px;
+}
+.name{
+      color:black;
+        font-size:75px;
+        width:1130px;
+        margin:30px auto; 
+        text-align:center
+}
+.testimonials{ 
+
+    width:100%;
+    padding:100px 0px;
+  
+  }
+  .appear{
+      
+    display:grid;
+    justify-content:center;
+    align-items: center;
+    min-height:400px;
+}
+.paper{
+    height:250px;
+    width:400px;
+ 
+    background: #edebeb;
+    padding:100px 20px;
+    border-radius:50px;
+    margin:15px;
+    position:relative;
+    overflow:hidden;
+    text-align: center;
+}
+.sentence{
+    font-weight: bold;
+    font-size: 20px;
+}
